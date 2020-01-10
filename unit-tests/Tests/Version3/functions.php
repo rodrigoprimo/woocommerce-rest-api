@@ -38,7 +38,7 @@ class WC_Tests_API_Functions extends WC_Unit_Test_Case {
 		$upload_dir_info       = wp_upload_dir();
 		$this->upload_dir_path = $upload_dir_info['path'];
 		$this->upload_dir_url  = $upload_dir_info['url'];
-		$this->file_name       = 'Dr1Bczxq4q.png';
+		$this->file_name       = 'upload_test_file.png';
 	}
 
 	/**
